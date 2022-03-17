@@ -1,0 +1,60 @@
+/*
+Stylesheet für die website
+*/
+
+body{
+    font-family: 'Lato', sans-serif;
+    background: #242222 url('images/matrix-background.jpg') center bottom/cover no-repeat;
+    height: 100vh;
+    color:white;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+  }
+  img{
+    height: 18px;
+    font-size: 18px;
+    margin-right: 10px;
+    margin-bottom: -3px;
+  }
+  .header-image{
+    width: 100%;
+    display: block;
+  }
+
+  .image-container{
+    background-color: white;
+    padding: 16px;
+
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  a{
+    color: red;
+    text-decoration: none;
+    margin-left: 16px;
+    font-weight: 600;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .text-highlight{
+    color: orange ;
+    font-size: 48px;
+  }
+
+  .legal-content{
+    padding: 8px;
+  }
+
+  .legal-text{
+    margin-right: 16px;
+  }
+  </style>
